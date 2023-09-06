@@ -5,5 +5,8 @@ function demo2 (number){
         number--;
         
     }
+    for (let i = number; i >= 1 ; i --){
+        console.log(i)
+    }
 }
 demo2 (5)
